@@ -1,0 +1,14 @@
+# Any x86_64 Linux computer (mini PC, laptop) used as a head unit or for development.
+id = "generic-linux-x86-64"
+manufacturer = "Any"
+model = "x86_64 Linux computer"
+cpu_arch = "x86_64"
+video_decode = "VA-API (Intel/AMD) or NVDEC when the driver is installed; else software"
+installation = "native-linux"
+android_auto = "unknown"
+carplay = "unknown"
+status = "untested"
+notes = """
+LIVI ships an x86_64 AppImage tested upstream on Debian 13, Fedora 44 and Ubuntu 26.04.
+Run `opencar check` to see what a particular computer offers.
+"""

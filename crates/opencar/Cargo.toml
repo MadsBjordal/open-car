@@ -1,0 +1,26 @@
+[package]
+name = "opencar"
+description = "open-car command-line tool: check a head unit or adapter, search the compatibility database, configure LIVI."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+build = "build.rs"
+
+[[bin]]
+name = "opencar"
+path = "src/main.rs"
+
+[dependencies]
+opencar-core = { path = "../opencar-core" }
+clap.workspace = true
+serde_json.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+
+[lints]
+workspace = true

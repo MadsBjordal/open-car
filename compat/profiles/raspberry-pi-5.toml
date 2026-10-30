@@ -1,0 +1,24 @@
+# Raspberry Pi 5 as an external adapter: runs LIVI + open-car behind the dash and drives a screen.
+id = "raspberry-pi-5"
+manufacturer = "Raspberry Pi"
+model = "Raspberry Pi 5"
+operating_system = "Raspberry Pi OS (Debian 13 Trixie), which LIVI requires on Pi boards"
+cpu_arch = "aarch64"
+usb = "2 x USB 3.0 + 2 x USB 2.0 host ports"
+bluetooth = "Bluetooth 5.0 on board"
+wifi = "Dual-band 802.11ac on board; access-point mode to be confirmed with `opencar check`"
+video_decode = "HEVC (H.265) hardware decoder; no H.264 hardware decoder"
+audio = "No analogue output on board: HDMI audio, or a USB or I2S DAC"
+installation = "external-adapter"
+android_auto = "unknown"
+carplay = "unknown"
+status = "untested"
+known_issues = [
+    "CarPlay needs an MFi coprocessor wired to I2C or a LIVI Link; neither is part of the Pi.",
+    "Needs a car power supply that keeps it alive to shut down cleanly and then cuts its own power.",
+]
+notes = """
+Board facts are from the Raspberry Pi 5 product brief. LIVI's README says it is tested on
+Raspberry Pi OS; open-car has not tested this board yet. The I2C bus and power GPIO for an MFi
+chip depend on how it is wired; LIVI's defaults (bus 2, GPIO 21) are not assumed here.
+"""

@@ -1,0 +1,22 @@
+# Factory head unit of the 2013-2014 Scion FR-S (the project's reference car, a MY2014).
+# Every fact below is UNVERIFIED (forum reading, see docs/research/reference-vehicle.md) until a
+# photo, a label or a bench test confirms it. Do not mark anything 'yes' without evidence.
+id = "scion-frs-pioneer-2013-2014"
+manufacturer = "Pioneer (for Scion)"
+model = "Factory audio unit, 2013-2014 (model number not yet read from a real unit)"
+vehicles = ["Scion FR-S 2013-2014", "Toyota GT86 / 86 (ZN6), related platform", "Subaru BRZ (ZC6), related platform"]
+installation = "unknown"
+android_auto = "unknown"
+carplay = "unknown"
+status = "untested"
+known_issues = [
+    "No public way to run third-party software on this unit is known (searched 2026-10-30).",
+    "Whether the screen accepts any outside video input is unknown; probably not.",
+]
+notes = """
+Unverified: a non-touch Pioneer-made unit (AM/FM/HD Radio, CD, USB/iPod, AUX, Bluetooth), with an
+optional 5.8-inch BeSpoke touchscreen unit. Most likely outcome: 'requires-external-hardware'
+(a Raspberry Pi adapter with its own screen in the dash opening), but that is not decided until a
+real unit is identified. Needed: photos of the unit's front, its system/version screen and the
+chassis label. Never connect anything to the ECU, OBD port or CAN bus (MASTER_SECURITY.md).
+"""

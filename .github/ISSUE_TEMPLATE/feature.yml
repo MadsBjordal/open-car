@@ -1,0 +1,15 @@
+name: Feature request
+description: Suggest something new.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What do you need, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: existing
+    attributes:
+      label: Does LIVI or open-car already do part of it?
+      description: We extend what exists rather than add a second way.

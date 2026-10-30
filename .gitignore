@@ -1,0 +1,15 @@
+/target/
+**/*.rs.bk
+.idea/
+.vscode/
+*.swp
+# Never commit secrets, MFi material, firmware or diagnostics bundles.
+.env
+*.pem
+*.key
+*.der
+mfi/
+firmware-dumps/
+*.bin
+*.img
+opencar-diagnostics*.json

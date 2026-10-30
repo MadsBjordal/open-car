@@ -1,0 +1,18 @@
+# 7-inch touchscreen "Display Audio" of the 2015-2016 Scion FR-S. Facts are UNVERIFIED.
+id = "scion-frs-pioneer-display-audio-2015-2016"
+manufacturer = "Pioneer (for Scion)"
+model = "7-inch Display Audio, 2015-2016 (model number not yet read from a real unit)"
+vehicles = ["Scion FR-S 2015-2016"]
+touchscreen = true
+installation = "unknown"
+android_auto = "unknown"
+carplay = "unknown"
+status = "untested"
+known_issues = [
+    "No public way to run third-party software on this unit is known (searched 2026-10-30).",
+]
+notes = """
+Unverified lead: Pioneer aftermarket AVH/AVIC units have been rooted
+(github.com/LennartF22/pioneer-firmware). Whether this OEM unit shares their platform is unknown;
+it would need a spare unit on the bench and a tested recovery path before anything is written to it.
+"""

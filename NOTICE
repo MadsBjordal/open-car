@@ -1,0 +1,19 @@
+open-car
+Copyright (C) 2026 the open-car contributors
+https://github.com/MadsBjordal/open-car
+
+open-car is free software, licensed under the GNU General Public License v3.0 or later
+(GPL-3.0-or-later). See LICENSE for the full text.
+
+open-car uses LIVI as its phone projection engine:
+
+    Based on LIVI by Lasse Heitgres (https://github.com/f-io/LIVI)
+
+LIVI is licensed under GPL-3.0-or-later with an attribution term under section 7(b) of the
+GPL-3.0 (see LIVI's NOTICE). open-car does not include LIVI's code in this repository; it installs,
+checks and configures LIVI. Any open-car release that bundles LIVI keeps this attribution in its
+About screen and documentation.
+
+Apple, CarPlay and iPhone are trademarks of Apple Inc. Android and Android Auto are trademarks of
+Google LLC. open-car is not affiliated with or endorsed by Apple, Google, Toyota, Subaru, Scion or
+Pioneer.
